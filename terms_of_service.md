@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - FB Mastery Guide</title>
+    <!-- Chosen Palette: Facebook Inspired (fb-blue, fb-dark, fb-light) -->
+    <!-- Application Structure Plan: A clean, single-column, responsive layout was chosen to present the legal text of the Terms of Service in a clear, readable, and professional manner. The goal is legal clarity and user accessibility, not complex interaction. A header provides navigation back to the main site for a cohesive user experience. -->
+    <!-- Visualization & Content Choices: The Markdown content was translated to semantic HTML (headings, paragraphs, lists) to maintain structure and readability. No charts or visualizations are needed. The chosen presentation method is a static, styled text document, as is standard for legal agreements. No JS libraries needed. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'fb-blue': '#1877F2',
+                        'fb-dark': '#1C1E21',
+                        'fb-light': '#F0F2F5',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body class="text-gray-800 bg-fb-light">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-2xl font-bold text-fb-blue">
+                        FB Mastery Guide
+                    </a>
+                </div>
+                <div class="hidden md:block">
+                     <a href="index.html" class="text-gray-600 hover:text-fb-blue px-3 py-2 rounded-md transition duration-150 ease-in-out text-sm font-medium">← Back to Main Guide</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="py-12 sm:py-16">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 bg-white p-8 sm:p-12 rounded-lg shadow-lg">
+            <h1 class="text-3xl sm:text-4xl font-extrabold text-fb-dark mb-4 border-b pb-4">Terms of Service</h1>
+            <p class="text-sm text-gray-500 mb-8"><strong>Last Updated:</strong> September 27, 2025</p>
+
+            <div class="space-y-6 text-gray-700 leading-relaxed">
+                <p>Please read these Terms of Service ("Terms", "Terms of Use") carefully before using the FB Mastery Guide website (the "Service") operated by FB Mastery Guide .</p>
+                <section>
+                    <h2 class="text-2xl font-semibold text-fb-dark mt-8 mb-3">1. Acceptance of Terms</h2>
+                    <p>By accessing and using our Service, you accept and agree to be bound by these Terms and our Privacy Policy. If you disagree with any part of the terms, then you do not have permission to access the Service.</p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-semibold text-fb-dark mt-8 mb-3">2. Nature of the Service (No Guarantees)</h2>
+                    <p>The FB Mastery Guide provides educational and informational content related to Facebook growth and monetization strategies.</p>
+                    <ul class="list-disc list-inside space-y-2 mt-4 ml-4">
+                        <li><strong>Informational Purpose Only:</strong> All content is provided for informational purposes only. We are not financial, legal, or professional advisors.</li>
+                        <li><strong>No Income Guarantee:</strong> We make <strong>no guarantees</strong> that you will achieve any specific results, follower count, or income level by using the techniques and strategies described in this Service. Success depends on factors including, but not limited to, your niche, effort, audience, and the constantly changing nature of social media platforms.</li>
+                        <li><strong>External Links:</strong> The Service may contain links to third-party websites (e.g., Facebook, Business Suite). We have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third-party sites or services.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-semibold text-fb-dark mt-8 mb-3">3. Intellectual Property</h2>
+                    <p>The Service and its original content, features, and functionality (including the text, graphics, design, and website structure) are and will remain the exclusive property of FB Mastery Guide and its licensors. Our content is protected by copyright, trademark, and other laws of both [Your Jurisdiction] and foreign countries.</p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-semibold text-fb-dark mt-8 mb-3">4. User Conduct</h2>
+                    <p>You agree not to use the Service:</p>
+                    <ul class="list-disc list-inside space-y-2 mt-4 ml-4">
+                        <li>In any way that violates any applicable national or international law or regulation.</li>
+                        <li>For the purpose of exploiting, harming, or attempting to exploit or harm minors in any way.</li>
+                        <li>To transmit, or procure the sending of, any advertising or promotional material without our prior written consent, including "junk mail" or "spam."</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-semibold text-fb-dark mt-8 mb-3">5. Disclaimer of Warranties</h2>
+                    <p>Your use of the Service is at your sole risk. The Service is provided on an "AS IS" and "AS AVAILABLE" basis. The Service is provided without warranties of any kind, whether express or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, non-infringement, or course of performance.</p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-semibold text-fb-dark mt-8 mb-3">6. Limitation of Liability</h2>
+                    <p>In no event shall FB Mastery Guide, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from:</p>
+                    <ul class="list-disc list-inside space-y-2 mt-4 ml-4">
+                        <li>Your access to or use of or inability to access or use the Service;</li>
+                        <li>Any conduct or content of any third party on the Service;</li>
+                        <li>Any content obtained from the Service; and</li>
+                        <li>Unauthorized access, use or alteration of your transmissions or content.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-semibold text-fb-dark mt-8 mb-3">7. Governing Law</h2>
+                    <p>These Terms shall be governed and construed in accordance with the laws of [Your Jurisdiction], without regard to its conflict of law provisions.</p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-semibold text-fb-dark mt-8 mb-3">8. Changes to Terms</h2>
+                    <p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. We will try to provide at least 30 days' notice before any new terms take effect. By continuing to access or use our Service after those revisions become effective, you agree to be bound by the revised terms.</p>
+                </section>
+
+                <section class="mt-12 border-t pt-6">
+                    <h3 class="text-xl font-semibold text-fb-dark mb-3">Contact Us:</h3>
+                    <p>If you have any questions about these Terms, please contact us at [Your Contact Email Address].</p>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 py-8 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-500 text-sm">
+            &copy; 2025 FB Mastery Guide. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
