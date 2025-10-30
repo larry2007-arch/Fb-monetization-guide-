@@ -58,6 +58,47 @@
         html {
             scroll-behavior: smooth;
         }
+        
+/* The video-container sets the aspect ratio (16:9) 
+   and acts as the positioning context for the iframe.
+*/
+.video-container {
+    position: relative; 
+    width: 100%; 
+    
+    /* Key to 16:9 Aspect Ratio: Height = 56.25% of the Width (9 / 16 = 0.5625) */
+    padding-bottom: 56.25%; 
+    
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+}
+
+/* The iframe is positioned absolutely to fill 100% of the container 
+   defined by the aspect ratio.
+*/
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0; /* Removes the default iframe border */
+}
+
+/* Optional: Additional structure styling for clarity */
+.tutorial-item {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+.tutorial-item h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+    }
     </style>
 </head>
 <body class="text-gray-800">
@@ -100,6 +141,21 @@
 
     <!-- Main Content Tabs Section -->
     <main class="py-16 sm:py-24">
+<section class="tutorial-item">
+    
+ <div class="video-container">
+        <iframe 
+            src="https://youtu.be/DHPmUYZ547U?si=-ESfRxiU1VIbzH0i" 
+            title="How to setup Payout on Facebook"
+            frameborder="0" 
+            allowfullscreen>
+        </iframe>
+    </div>
+  
+</section>
+        <div class="flex flex-wrap justify-center gap-6">
+            <a href="video.html"><h2>Watch More 📺 </h2></a>
+        </div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
             <!-- Tab Navigation -->
