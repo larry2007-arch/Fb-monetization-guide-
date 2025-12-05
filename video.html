@@ -3,62 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FB Mastery: Tutorials</title>
+    <title>🔥 FB Mastery: Phoenix Tutorials</title>
     <link rel="icon" type="image/x-icon" href="20251026_011810.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <style>
+    /*
+    ** PHOENIX THEME STYLES **
+    A dark, high-contrast theme with fiery orange/red accents.
+    */
+    :root {
+        /* Define Phoenix-themed colors */
+        --phoenix-dark: #1a1a1a;
+        --phoenix-accent-start: #ff7e5f; /* Coral/Orange */
+        --phoenix-accent-end: #feb47b;   /* Peach/Light Orange */
+        --phoenix-light-text: #f0f0f0;
+    }
 
-             .gradient-bg {
-            background: linear-gradient(135deg, #1877F2 0%, #00d4ff 100%);
-            font-family: 'Inter', sans-serif;
-            
-        }
-.video-container {
-    position: relative; 
-    width: 100%; 
-    
-    /* Key to 16:9 Aspect Ratio: Height = 56.25% of the Width (9 / 16 = 0.5625) */
-    padding-bottom: 56.25%; 
-    
-    height: 0; 
-    overflow: hidden; 
-    max-width: 100%; 
-}
+    /* 1. Body and General Layout - Dark Background */
+    body {
+        background-color: var(--phoenix-dark); /* Dark/Ash background */
+        font-family: 'Roboto', sans-serif;
+        color: var(--phoenix-light-text);
+        padding: 20px;
+        line-height: 1.6;
+    }
 
-/* The iframe is positioned absolutely to fill 100% of the container 
-   defined by the aspect ratio.
-*/
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0; /* Removes the default iframe border */
-}
+    /* 2. Video Container - Standard Aspect Ratio */
+    .video-container {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+        height: 0;
+        overflow: hidden;
+        margin-top: 15px; /* Spacing below the title */
+    }
 
-/* Optional: Additional structure styling for clarity */
-.tutorial-item {
-    margin-bottom: 40px;
-    padding: 20px;
-    border: 1px solid #eee;
-    border-radius: 8px;
-}
+    /* 3. Video iFrame Styling - Box Shadow for Depth */
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+        /* Subtle shadow to make the video pop off the dark background */
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+        border-radius: 8px; /* Rounded corners for a modern look */
+    }
 
-.tutorial-item h3 {
-    margin-top: 0;
-    font-size: 1.5em;
-    color: #333;
-}
+    /* 4. Tutorial Item - Phoenix Border and Spacing */
+    .tutorial-item {
+        margin-bottom: 40px;
+        padding: 25px;
+        /* A subtle border using the accent gradient */
+        border: 2px solid;
+        border-image: linear-gradient(to right, var(--phoenix-accent-start), var(--phoenix-accent-end)) 1;
+        background-color: #262626; /* Slightly lighter dark background for the item */
+        border-radius: 10px;
+        transition: transform 0.3s ease; /* For a subtle hover effect */
+    }
+
+    /* Hover effect: makes the item slightly "rise" like a Phoenix */
+    .tutorial-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(255, 126, 95, 0.2); /* Fiery glow effect */
+    }
+
+    /* 5. Heading Styles - Fiery Accent Text */
+    .tutorial-item h3 {
+        margin-top: 0;
+        font-size: 1.6em;
+        font-weight: 700;
+        /* Apply the Phoenix gradient to the text */
+        background: linear-gradient(45deg, var(--phoenix-accent-start), var(--phoenix-accent-end));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: var(--phoenix-light-text); /* Fallback */
+        border-bottom: 1px solid rgba(255, 126, 95, 0.4); /* Subtle separator */
+        padding-bottom: 10px;
+    }
+
+    /* 6. Separator - Fiery HR */
+    hr {
+        border: none;
+        height: 3px;
+        /* Vibrant separator */
+        background: linear-gradient(90deg, transparent 0%, var(--phoenix-accent-start) 20%, var(--phoenix-accent-end) 80%, transparent 100%);
+        margin: 50px 0;
+    }
 </style>
-<body class="gradient-bg">
+<body>
+
+<header style="text-align: center; margin-bottom: 50px;">
+    <h1 style="font-size: 3em; background: linear-gradient(45deg, #ff416c, #ff4b2b); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+       Become a Successful<strong>Facebook Content Creator </strong>
+    </h1>
+    <p style="color: #ccc;">Rise above the competition with these mastery tutorials.</p>
+</header>
+
 <section class="tutorial-item">
-    <h3>Video 1: </h3>
+    <h3>Video 1: How to Monetize your Profile</h3>
     <div class="video-container">
-    <iframe 
-            src="https://www.youtube.com/embed/7tRZos78v9M?si=0Pjc9nK23SdehrWi" 
+    <iframe
+            src="https://www.youtube.com/embed/7tRZos78v9M?si=0Pjc9nK23SdehrWi"
             title="How to Monetize your Profile"
-            frameborder="0" 
             allowfullscreen>
         </iframe>
     </div>
@@ -67,26 +116,44 @@
 <hr>
 
 <section class="tutorial-item">
-    <h3>Video 2: 
+    <h3>Video 2: How to setup Payout on Facebook</h3>
     <div class="video-container">
-        <iframe 
-            src="https://www.youtube.com/embed/DHPmUYZ547U?si=-ESfRxiU1VIbzH0i" 
+        <iframe
+            src="https://www.youtube.com/embed/DHPmUYZ547U?si=-ESfRxiU1VIbzH0i"
             title="How to setup Payout on Facebook"
-            frameborder="0" 
             allowfullscreen>
         </iframe>
     </div>
-  
 </section>
 
+<hr>
+
 <section class="tutorial-item">
-    <h3>Video 3: 
+    <h3>Video 3: How to Get a Tax Identification Number (TIN) for your Facebook account</h3>
     <div class="video-container">
-        <iframe 
-            src="https://www.youtube.com/embed/eTJdHl78gvE?si=C371EYw9fwNOlODh" 
+        <iframe
+            src="https://www.youtube.com/embed/eTJdHl78gvE?si=C371EYw9fwNOlODh"
             title="How to Get a Tax Identification Number (TIN) for your Facebook account "
-            frameborder="0" 
             allowfullscreen>
+        </iframe>
+    </div>
+</section>
+
+<hr>
+
+<section class="tutorial-item">
+    <h3>Video 4: Make thousands per month on Facebook without videos</h3>
+    <div class="video-container">
+        <iframe
+            src="https://www.youtube.com/embed/XXhUqKUKTy0?si=4SzVop0Y9sUEPUob"
+            title="Make thousands per month on Facebook without videos"
+            allowfullscreen>
+        </iframe>
+    </div>
+</section>
+
+</body>
+</html>llowfullscreen>
         </iframe>
     </div>
   
